@@ -1,3 +1,5 @@
+import 'package:flutter/foundation.dart';
+
 import 'level.dart';
 import 'log_record.dart';
 import 'output.dart';
@@ -29,14 +31,19 @@ class Logger {
     _root.min = minLevel;
   }
 
-  static void addEngine(Output engine) {
-    _root.engines.add(engine);
+  static void setEngines(List<Output> engines) {
+    _root.engines = engines;
   }
 }
 
 class _Logger {
-  Level min = Level.ALL;
-  List<Output> engines = [Console()];
+  late Level min;
+  late List<Output> engines;
+
+  _Logger(){
+    min = kDebugMode ? Level.ALL : Level.OFF;
+    engines = [Console()];
+  }
 
   ///
   void log(Level level, Object? message) {
@@ -50,8 +57,8 @@ class _Logger {
       stackTrace: StackTrace.current,
     );
 
-    engines.forEach((element) {
+    for (var element in engines) {
       element.output(lr);
-    });
+    }
   }
 }
