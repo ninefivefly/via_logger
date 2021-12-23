@@ -8,6 +8,13 @@
 - [x] 根据日志级别过滤日志
 - [x] 自定义打印内容
 
+## 安装
+
+```
+dependencies:
+  via_logger: ^1.0.0
+```
+
 ## 如何使用？
 
 ### 1. 简单使用
@@ -15,6 +22,8 @@
 引入包，就可以直接使用，所见即所得。
 
 ```
+import 'package:via_logger/via_logger.dart';
+
 Logger.info('this is info log.');
 
 打印出来就是：
@@ -49,3 +58,4 @@ class Console extends Output {
 final List<Output> engines = [Console()];
 Logger.setEngines(engines);
 ```
+
