@@ -40,7 +40,7 @@ class _Logger {
   late Level min;
   late List<Output> engines;
 
-  _Logger(){
+  _Logger() {
     min = kDebugMode ? Level.ALL : Level.OFF;
     engines = [Console()];
   }

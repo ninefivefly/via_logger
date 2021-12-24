@@ -12,7 +12,7 @@
 
 ```
 dependencies:
-  via_logger: 
+  via_logger:
 ```
 
 ## 如何使用？
