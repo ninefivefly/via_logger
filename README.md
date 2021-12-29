@@ -1,6 +1,6 @@
 
 # via_logger
-Language: English| [中文简体](https://github.com/ninefivefly/via_logger/blob/master/README_zh.md)
+Language: English|[中文简体](https://github.com/ninefivefly/via_logger/blob/master/README_zh.md)
 
 ## Why was this library created?
 In the daily development process, the log is the most convenient clue for us to find bugs. However, the print log that comes with Flutter does not print the time, file name, and line number. This caused us inconvenience to find the problem quickly. Portal [via_logger](https://pub.dev/packages/via_logger)
