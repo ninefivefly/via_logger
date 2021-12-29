@@ -1,6 +1,6 @@
 
 # via_logger
-语言: 中文简体|[English](https://github.com/ninefivefly/via_logger/blob/master/README.md)
+语言: 中文简体|[English](https://github.com/ninefivefly/via_logger)
 
 
 ## 为什么会有这个库？
