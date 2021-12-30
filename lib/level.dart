@@ -14,11 +14,11 @@ class Level implements Comparable<Level> {
   /// Special key to turn off all logging ([value] = 2000).
   static const Level OFF = Level('OFF', 2000);
 
-  /// Key for potential problems .
-  static const Level WARNING = Level('WARNING', 100);
-
   /// Key for highly detailed tracing .
-  static const Level DEBUG = Level('DEBUG', 200);
+  static const Level DEBUG = Level('DEBUG', 100);
+
+  /// Key for potential problems .
+  static const Level WARNING = Level('WARNING', 200);
 
   /// Key for informational messages
   static const Level INFO = Level('INFO', 300);
