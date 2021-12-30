@@ -1,6 +1,6 @@
 name: via_logger
 description: Logger for Dart applications, the printed log contains time, file name, and line number, allows you create your own log.
-version: 1.0.3
+version: 1.0.4
 homepage: https://github.com/ninefivefly/via_logger
 author: JIANG PENG CHENG<ninefivefly@gmail.com>
 
