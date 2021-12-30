@@ -26,11 +26,12 @@ class Logger {
   ///
   static void serious(Object? message) => _root.log(Level.SERIOUS, message);
 
-  ///
+  /// set the log level.
   static set minLevel(Level minLevel) {
     _root.min = minLevel;
   }
 
+  /// custom log engines.
   static void setEngines(List<Output> engines) {
     _root.engines = engines;
   }
