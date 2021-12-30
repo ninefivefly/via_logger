@@ -12,10 +12,10 @@ class Logger {
   Logger._();
 
   ///
-  static void warning(Object? message) => _root.log(Level.WARNING, message);
+  static void debug(Object? message) => _root.log(Level.DEBUG, message);
 
   ///
-  static void debug(Object? message) => _root.log(Level.DEBUG, message);
+  static void warning(Object? message) => _root.log(Level.WARNING, message);
 
   ///
   static void info(Object? message) => _root.log(Level.INFO, message);
