@@ -7,10 +7,10 @@ In the daily development process, the log is the most convenient clue for us to 
 
 ## Features
 
--[x] Print log level, time, file path and line number
--[x] Print long log
--[x] Filter logs based on log level
--[x] Custom print content
+- [x] Print log level, time, file path and line number.
+- [x] Print long log.
+- [x] Filter logs based on log level.
+- [x] Custom print content.
 
 ## Install
 
